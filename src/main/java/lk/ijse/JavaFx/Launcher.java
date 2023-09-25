@@ -13,7 +13,7 @@ public class Launcher extends Application {
     }
     @Override
     public void start(Stage stage) throws Exception {
-        AnchorPane rootNode = FXMLLoader.load(this.getClass().getResource("/view/main_form.fxml"));
+        Parent rootNode = FXMLLoader.load(this.getClass().getResource("/view/mainForm.fxml"));
 
 
         Scene scene = new Scene(rootNode);

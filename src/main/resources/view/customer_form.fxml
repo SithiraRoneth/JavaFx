@@ -10,9 +10,9 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="677.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fitHeight="463.0" fitWidth="677.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="image1" fitHeight="463.0" fitWidth="677.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../Pictures/Customer-Base.png" />
+            <Image url="@../asset/Customer-Base.png" />
          </image>
       </ImageView>
       <Label layoutX="157.0" layoutY="34.0" prefHeight="102.0" prefWidth="362.0" text="Customer Form">
