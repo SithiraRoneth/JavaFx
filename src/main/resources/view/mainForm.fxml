@@ -2,12 +2,19 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.JavaFx.controller.MainFormController">
    <children>
-      <Label layoutX="186.0" layoutY="38.0" prefHeight="74.0" prefWidth="227.0" text="Main Form">
+      <ImageView fx:id="image0" fitHeight="387.0" fitWidth="510.0" layoutX="45.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/1326727.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="186.0" layoutY="38.0" prefHeight="74.0" prefWidth="227.0" text="Main Form" textFill="#f2f2f2">
          <font>
             <Font name="System Bold Italic" size="44.0" />
          </font>
