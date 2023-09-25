@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.JavaFx.controller.itemController">
+   <children>
+      <ImageView fitHeight="153.0" fitWidth="462.0" layoutX="67.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Pictures/itembase_wheels.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="204.0" layoutY="33.0" prefHeight="62.0" prefWidth="192.0" text="Item Form">
+         <font>
+            <Font name="System Bold Italic" size="39.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
